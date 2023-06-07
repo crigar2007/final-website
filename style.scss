@@ -1,0 +1,46 @@
+
+  $brandColor: black;
+
+  body {
+    font-family: system-ui;
+    background: linear-gradient(to bottom, 
+    $brandColor, 
+    darken($brandColor, 10%)
+    );
+    color: white;
+    margin: 0;
+    place-items: center;
+    background-image: url("https://png.pngtree.com/png-vector/20221225/ourmid/pngtree-seamless-pattern-of-music-notes-png-image_6536657.png");
+  }
+  
+  
+  .btn{
+    padding: 0px;
+    color: black;
+    border-color: white;
+    background: orange;
+    border-radius: 100px;
+    border-width: 5px 5px;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+  
+  }
+  .btn-C3 { background-color: red; }
+  .btn-D { background-color: yellow; }
+  .btn-C { background-color: lightgreen; }
+  .btn-F { background-color: orange; }
+  .btn-G { background-color: lightblue; }
+  .btn-A { background-color: purple; }
+  .btn-B { background-color: pink; }
+  .btn-C4 { background-color: red; }
+  
+  .playbtn{
+    color: white;
+    background: 0;
+    border-radius: 0px;
+    width: 90px;
+    height: 90px;
+    font-size: 50px;
+    border: none;
+  }
